@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,9 +17,10 @@
     <title>Marvel APP</title>
   </head>
   <body>
-    <!--CONTENT-->
-    <!-- NAV Bar completado -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <!--NAVBAR-->
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-light"
+    >
       <div class="container px-4">
         <!--LOGO-->
         <a href="#" class="navbar-brand">
@@ -34,7 +38,10 @@
           <span class="navbar-toggler-icon"> </span>
         </button>
         <!--MENÚ DE NAVEGACIÓN-->
-        <div id="navbar_menu" class="navbar-collapse collapse">
+        <div
+          id="navbar_menu"
+          class="navbar-collapse collapse"
+        >
           <!--Lista de Items-->
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
@@ -53,61 +60,88 @@
                 aria-expanded="false"
                 >Shop</a
               >
-              <ul class="dropdown-menu" aria-labelledby="drop_products">
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="drop_products"
+              >
                 <li>
-                  <a class="dropdown-item" href="#"> All Products </a>
+                  <a class="dropdown-item" href="#">
+                    All Products
+                  </a>
                 </li>
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"> Comics </a>
+                  <a class="dropdown-item" href="#">
+                    Comics
+                  </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"> Series </a>
+                  <a class="dropdown-item" href="#">
+                    Series
+                  </a>
                 </li>
               </ul>
             </li>
           </ul>
           <div class="d-flex">
-            <button id="btn_cart" class="btn btn-outline-dark">
+            <button
+              id="btn_cart"
+              class="btn btn-outline-dark"
+            >
               <i class="bi bi-cart-fill"></i>
               Cart
-              <span class="badge rounded-pill bg-dark ms-1"> 0</span>
+              <span class="badge rounded-pill bg-dark ms-1">
+                0</span
+              >
             </button>
           </div>
         </div>
       </div>
     </nav>
-    <!-- Header -->
+    <!--HEADER-->
     <header>
       <div class="overlay"></div>
-      <video src="assets/video.mp4" 
-      autoplay="autoplay" 
-      muted 
-      loop>
-      </video>
-    
+      <video
+        src="assets/video.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
       <div class="container h-100">
-        <div class="d-flex h-100 flex-column align-items-center justify-content-center text-white">
-          <!-- Titulo de cabecera -->
+        <div
+          class="d-flex h-100 flex-column align-items-center justify-content-center text-white"
+        >
           <h1 class="display-3">Marvel Comics</h1>
           <p>Find the best Marvel Universe Comics</p>
         </div>
       </div>
     </header>
+    <!--CONTENT-->
+    <section class="py-5">
+      <div class="container mt-2">
+        <p class="h1 mb-5">New Releases</p>
 
-    <!-- Content -->
-    <section class="py-5 at-2">
-      <div class="container">
-        <p class="h1">New Releases</p>
-        <div class="row gx-3 row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-center">
-          <div class="column mb-5"> 
+        <div
+          id="card_container"
+          class="row gx-3 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5"
+        >
+          <!--PLANTILLA DEL CARD -->
+          <div
+            class="col mb-5"
+            id="card_template"
+            style="display: none"
+          >
             <div class="card">
-              <img class="card-image-top" src="assets/comic.jpeg" alt="...">
+              <img class="card-img-top comic_img" src="#" alt="..." />
               <div class="card-body text-center">
-                <h4 id="name" class="fw-bolder">Captain America/Iron man (2021)</h4>
-                <div class="d-flex text-warning small justify-content-center">
+                <h5 id="name" class="fw-bolder comic_name">
+                  {COMIC NAME}
+                </h5>
+                <div
+                  class="d-flex justify-content-center text-warning small"
+                >
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
@@ -115,119 +149,22 @@
                   <i class="bi bi-star"></i>
                   <span class="px-2 text-dark">4.5</span>
                 </div>
-                <span class="text-muted text-decoration-line-through">
-                  $80.00 
+
+                <span
+                  class="text-muted text-decoration-line-through"
+                >
+                  {ORIGINAL PRICE}
                 </span>
-                 <span id="price"> $50.00</span>
+                <span id="price">{PRICE}</span>
               </div>
 
-              <div class="card-footer pb-4 border-top-0 bg-transparent">
+              <div
+                class="card-footer pb-4 border-top-0 bg-transparent"
+              >
                 <div class="text-center">
-                  <button class="btn btn-outline-dark">Add to car</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column mb-5"> 
-            <div class="card h-100">
-              <img class="card-image-top" src="assets/comic.jpeg" alt="...">
-              <div class="card-body text-center">
-                <h4 id="name" class="fw-bolder">Captain America/Iron man (2021)</h4>
-                <div class="d-flex text-warning small justify-content-center">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star"></i>
-                  <span class="px-2 text-dark">4.5</span>
-                </div>
-                <span class="text-muted text-decoration-line-through">
-                  $80.00 
-                </span>
-                 <span id="price"> $50.00</span>
-              </div>
-
-              <div class="card-footer pb-4 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <button class="btn btn-outline-dark">Add to car</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column mb-5"> 
-            <div class="card">
-              <img class="card-image-top" src="assets/comic.jpeg" alt="...">
-              <div class="card-body text-center">
-                <h4 id="name" class="fw-bolder">Captain America/Iron man (2021)</h4>
-                <div class="d-flex text-warning small justify-content-center">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star"></i>
-                  <span class="px-2 text-dark">4.5</span>
-                </div>
-                <span class="text-muted text-decoration-line-through">
-                  $80.00 
-                </span>
-                 <span id="price"> $50.00</span>
-              </div>
-
-              <div class="card-footer pb-4 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <button class="btn btn-outline-dark">Add to car</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column mb-5"> 
-            <div class="card">
-              <img class="card-image-top" src="assets/comic.jpeg" alt="...">
-              <div class="card-body text-center">
-                <h4 id="name" class="fw-bolder">Captain America/Iron man (2021)</h4>
-                <div class="d-flex text-warning small justify-content-center">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star"></i>
-                  <span class="px-2 text-dark">4.5</span>
-                </div>
-                <span class="text-muted text-decoration-line-through">
-                  $80.00 
-                </span>
-                 <span id="price"> $50.00</span>
-              </div>
-
-              <div class="card-footer pb-4 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <button class="btn btn-outline-dark">Add to car</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column mb-5"> 
-            <div class="card">
-              <img class="card-image-top" src="assets/comic.jpeg" alt="...">
-              <div class="card-body text-center">
-                <h4 id="name" class="fw-bolder">Captain America/Iron man (2021)</h4>
-                <div class="d-flex text-warning small justify-content-center">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star"></i>
-                  <span class="px-2 text-dark">4.5</span>
-                </div>
-                <span class="text-muted text-decoration-line-through">
-                  $80.00 
-                </span>
-                 <span id="price"> $50.00</span>
-              </div>
-
-              <div class="card-footer pb-4 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <button class="btn btn-outline-dark">Add to car</button>
+                  <button class="btn btn-outline-dark">
+                    Add to cart
+                  </button>
                 </div>
               </div>
             </div>
@@ -235,18 +172,20 @@
         </div>
       </div>
     </section>
-    
-    <!-- Footer -->
+    <!--PIE PÁGINA-->
     <footer class="bg-dark py-5">
       <div class="container text-white">
-        <p class="text-center"> Copyright &copy; 2022</p>
-
+        <p class="text-center m-0">Copyright &copy; 2022</p>
       </div>
     </footer>
+
+    <pre id="code"></pre>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
