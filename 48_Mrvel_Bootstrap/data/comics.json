@@ -103,7 +103,7 @@
         "prices": [{ "type": "printPrice", "price": 0 }],
         "thumbnail": {
           "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-          "extension": "jpg"
+          "extension": "jpeg"
         },
         "images": [],
         "creators": {
@@ -240,7 +240,7 @@
         "prices": [{ "type": "printPrice", "price": 0 }],
         "thumbnail": {
           "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-          "extension": "jpg"
+          "extension": "jpeg"
         },
         "images": [],
         "creators": {
@@ -363,13 +363,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 0 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/5e3d7536c8ada",
-          "extension": "jpg"
+          "path": "assets/comics/1",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/5e3d7536c8ada",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -457,13 +457,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 0 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/4bc5fe7a308d7",
-          "extension": "jpg"
+          "path": "assets/comics/2",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/4bc5fe7a308d7",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -571,13 +571,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 9.99 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/4bc66d78f1bee",
-          "extension": "jpg"
+          "path": "assets/comics/3",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/4bc66d78f1bee",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -675,13 +675,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 2.5 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75",
-          "extension": "jpg"
+          "path": "assets/comics/4",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -768,13 +768,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 2.99 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/20/4bc697c680890",
-          "extension": "jpg"
+          "path": "assets/comics/5",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/20/4bc697c680890",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -889,41 +889,41 @@
         ],
         "prices": [{ "type": "printPrice", "price": 5.99 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/20/4bc665483c3aa",
-          "extension": "jpg"
+          "path": "assets/comics/6",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/5a664c954a55b",
-            "extension": "jpg"
+            "extension": "jpeg"
           },
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/80/5a6648f8aaccc",
-            "extension": "jpg"
+            "extension": "jpeg"
           },
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/c0/5a6648efbc46c",
-            "extension": "jpg"
+            "extension": "jpeg"
           },
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/00/5a6648c368f52",
-            "extension": "jpg"
+            "extension": "jpeg"
           },
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/40/4bc689a4ce796",
-            "extension": "jpg"
+            "extension": "jpeg"
           },
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/c0/4bc684889f8ed",
-            "extension": "jpg"
+            "extension": "jpeg"
           },
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/50/4bc6809bdc81b",
-            "extension": "jpg"
+            "extension": "jpeg"
           },
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/20/4bc665483c3aa",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -1101,13 +1101,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 3.99 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/90/4bc6353e5fc56",
-          "extension": "jpg"
+          "path": "assets/comics/7",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/90/4bc6353e5fc56",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -1240,13 +1240,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 2.99 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/4bc6a2497684e",
-          "extension": "jpg"
+          "path": "assets/comics/8",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/4bc6a2497684e",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -1344,13 +1344,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 2.99 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/70/4bc69c7e9b9d7",
-          "extension": "jpg"
+          "path": "assets/comics/9",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/70/4bc69c7e9b9d7",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -1448,13 +1448,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 3.99 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/4bc64020a4ccc",
-          "extension": "jpg"
+          "path": "assets/comics/10",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/4bc64020a4ccc",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -1676,13 +1676,13 @@
         ],
         "prices": [{ "type": "printPrice", "price": 9.99 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/f0/4bc6670c80007",
-          "extension": "jpg"
+          "path": "assets/comics/11",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/f0/4bc6670c80007",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -1928,17 +1928,17 @@
         ],
         "prices": [{ "type": "printPrice", "price": 9.99 }],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/58b5cfb6d5239",
-          "extension": "jpg"
+          "path": "assets/comics/12",
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/58b5cfb6d5239",
-            "extension": "jpg"
+            "extension": "jpeg"
           },
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/4bc66463ef7f0",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -2072,12 +2072,12 @@
         "prices": [{ "type": "printPrice", "price": 3.99 }],
         "thumbnail": {
           "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/4c7d666c0e58a",
-          "extension": "jpg"
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/4c7d666c0e58a",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -2283,12 +2283,12 @@
         "prices": [{ "type": "printPrice", "price": 2.5 }],
         "thumbnail": {
           "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75",
-          "extension": "jpg"
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -2387,7 +2387,7 @@
         "prices": [{ "type": "printPrice", "price": 2.99 }],
         "thumbnail": {
           "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-          "extension": "jpg"
+          "extension": "jpeg"
         },
         "images": [],
         "creators": {
@@ -2486,12 +2486,12 @@
         "prices": [{ "type": "printPrice", "price": 3.99 }],
         "thumbnail": {
           "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/4bc64df4105b9",
-          "extension": "jpg"
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/4bc64df4105b9",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -2682,12 +2682,12 @@
         "prices": [{ "type": "printPrice", "price": 3.99 }],
         "thumbnail": {
           "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/4bc6494ed6eb4",
-          "extension": "jpg"
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/4bc6494ed6eb4",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
@@ -2843,12 +2843,12 @@
         "prices": [{ "type": "printPrice", "price": 2.99 }],
         "thumbnail": {
           "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/20/4bc69f33cafc0",
-          "extension": "jpg"
+          "extension": "jpeg"
         },
         "images": [
           {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/20/4bc69f33cafc0",
-            "extension": "jpg"
+            "extension": "jpeg"
           }
         ],
         "creators": {
