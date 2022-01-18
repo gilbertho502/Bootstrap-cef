@@ -1676,7 +1676,7 @@
         ],
         "prices": [{ "type": "printPrice", "price": 9.99 }],
         "thumbnail": {
-          "path": "assets/comics/11",
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/f0/4bc6670c80007",
           "extension": "jpeg"
         },
         "images": [
@@ -1928,7 +1928,7 @@
         ],
         "prices": [{ "type": "printPrice", "price": 9.99 }],
         "thumbnail": {
-          "path": "assets/comics/12",
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/58b5cfb6d5239",
           "extension": "jpeg"
         },
         "images": [

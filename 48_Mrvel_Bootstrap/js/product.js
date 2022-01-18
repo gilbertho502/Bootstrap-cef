@@ -1,53 +1,41 @@
-const APIKEY = "14d8a14b31c283549128e029eb25dbba"; // Public Key
-const HASH = "21c27c3418a2fddfff1fd7d4f5df4c46"; // md5(ts+privateKey+publicKey) -> https://www.md5hashgenerator.com
-const TS = "1";
-//const URL = "https://gateway.marvel.com/v1/public/";
-const URL = "data/";
+import CLIENT from "./modules/client.js"
+import STORAGE from "./modules/store.js"
+import DOM from "./modules/dom.js"
 
-async function sendRequest(path) {
-  // 1. Hacer Peticion
-  const response = await fetch(URL + path + ".json");
-  // Validar la respuesta
-  if (!response.ok) throw Error(response.statusText);
-  // Extraer la información
-  const json = await response.json();
-  return json.data.results;
-}
+import {comicRender} from "./modules/renders.js"
 
-sendRequest("comics");
-
+// Crear la funcion main para consumir el recurso...
 async function main() {
-    const product_id = localStorage.getItem("product_id");
-    const comic = await sendRequest("comics/" + product_id);
-    console.log(comic);
-}
-
-main();
-
-
-async function sendRequest(path) {
-  // 1. Hacer Peticion
-  const response = await fetch(
-    URL +
-      path +
-      "?ts=" +
-      TS +
-      "&apikey=" +
-      APIKEY +
-      "&hash=" +
-      HASH
-  );
-  // Validar la respuesta
-  if (!response.ok) throw Error(response.statusText);
-  // Extraer la información
-  const json = await response.json();
-  return json.data.results;
-}
-
-async function main() {
-  const product_id = localStorage.getItem("product_id");
-  const comic = await sendRequest("comics/" + product_id);
-  //const comics = await sendRequestLocal("comics");
+  // Obtenemos ID almacenado en el storage
+  const product_id = STORAGE.get("product_id");
+  // Obtener la data del servidor para ese ID
+  const data = await CLIENT.sendRequest("comics/"+product_id);
+  // Trasformar la data en Información relevante 
+  const comic =  comicRender(data);
   console.log(comic);
+  //Actualizar información del HTML
+
+  const card = DOM.find("#comic_card"); // Busqueda en documento
+    
+  DOM.find("#comic_image").src = comic.image ;
+  DOM.find("#title",card).textContent = comic.title; // Busqueda dentro de card
+  DOM.find("#price",card).textContent = "$" + comic.price.sale;
+  DOM.find("#format",card).textContent = comic.format;
+  DOM.find("#description",card).innerHTML = comic.description;
+  DOM.find("#stock",card).innerHTML = comic.stock;
+  // Enlistamos los creadores
+  comic.creators.forEach(({name,role})=>{
+    const li = DOM.create("li")
+    li.textContent = `${name} - ${role}`
+    DOM.find("#creators",card).appendChild(li);
+  })
+
+  DOM.find("#btn_add").addEventListener('click',()=>{
+    const {id,title,price:{sale}} = comic;
+    STORAGE.setArray('cart',{id,title,sale});
+    window.location.href = "index.html"
+  })
+  
 }
+
 main();

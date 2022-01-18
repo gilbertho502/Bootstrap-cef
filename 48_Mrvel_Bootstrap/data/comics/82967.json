@@ -1,4 +1,5 @@
-{
+[
+  {
     "id": 82967,
     "digitalId": 0,
     "title": "Marvel Previews (2017)",
@@ -87,7 +88,12 @@
         "date": "2019-10-07T00:00:00-0400"
       }
     ],
-    "prices": [{ "type": "printPrice", "price": 0 }],
+    "prices": [
+      {
+        "type": "printPrice",
+        "price": 0
+      }
+    ],
     "thumbnail": {
       "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
       "extension": "jpeg"
@@ -135,3 +141,4 @@
       "returned": 0
     }
   }
+]
