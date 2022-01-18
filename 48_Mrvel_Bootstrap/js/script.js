@@ -1,5 +1,5 @@
-const APIKEY = "14d8a14b31c283549128e029eb25dbba"; // Public Key
-const HASH = "21c27c3418a2fddfff1fd7d4f5df4c46"; // md5(ts+privateKey+publicKey) -> https://www.md5hashgenerator.com
+const APIKEY = "d32c6bcd63e466cafed347920ea1ceb4"; // Public Key
+const HASH = "e3d587be462649735e2f9733aa6418da"; // md5(ts+privateKey+publicKey) -> https://www.md5hashgenerator.com
 const TS = "1";
 const URL = "https://gateway.marvel.com/v1/public/";
 //const URL = "data/";
