@@ -1,7 +1,7 @@
 const APIKEY = "d32c6bcd63e466cafed347920ea1ceb4"; // Public Key
 const HASH = "e3d587be462649735e2f9733aa6418da"; // md5(ts+privateKey+publicKey) -> https://www.md5hashgenerator.com
 const TS = "1";
-const URL = "https://gateway.marvel.com/v1/public/";
+const URL = process.env.VAR_URL;
 //const URL = "data/";
 
 async function sendRequest(path) {
